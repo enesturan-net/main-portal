@@ -1,7 +1,7 @@
 import streamlit as st
 
 # --- SAYFA AYARLARI ---
-st.set_page_config(page_title="Uygulama Merkezi", layout="wide", page_icon="🚀")
+st.set_page_config(page_title="TMCO Otomasyon Araçları", layout="wide", page_icon="🚀")
 
 # --- TASARIM VE CSS ---
 st.markdown("""
@@ -124,3 +124,4 @@ for i, app in enumerate(uygulamalar):
         )
 
         st.write("") # Kartlar arası boşluk bırak
+
