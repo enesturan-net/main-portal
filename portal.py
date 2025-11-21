@@ -75,7 +75,7 @@ uygulamalar = [
         "ad": "Raven Test Analizi",
         "ikon": "🧠",
         "aciklama": "Çocuk ve yetişkinler için zeka testi skorlama ve raporlama aracı.",
-        "link": "https://raven-test-app.streamlit.app"  # BURAYA SENİN RAVEN UYGULAMANIN LİNKİNİ YAPIŞTIR
+        "link": "https://raven-test-app-8vb5cu4nzr3cxgvuiwybus.streamlit.app/#raven-testi-otomatik-analiz-ve-raporlama"  # BURAYA SENİN RAVEN UYGULAMANIN LİNKİNİ YAPIŞTIR
     },
     {
         "ad": "WISC-R Hesaplayıcı",
@@ -122,4 +122,5 @@ for i, app in enumerate(uygulamalar):
             use_container_width=True,
             help=f"{app['ad']} uygulamasını açmak için tıklayın"
         )
+
         st.write("") # Kartlar arası boşluk bırak
