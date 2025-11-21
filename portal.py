@@ -72,7 +72,7 @@ st.markdown('<div class="sub-title">Tüm analiz ve raporlama araçlarına tek no
 # Yeni uygulama yaptıkça buraya ekleyebilirsin.
 uygulamalar = [
     {
-        "ad": "Raven Test Analizi",
+        "ad": "Raven Yaş ve Ülke Analizi",
         "ikon": "🧠",
         "aciklama": "Çocuk ve yetişkinler için zeka testi skorlama ve raporlama aracı.",
         "link": "https://raven-test-app-8vb5cu4nzr3cxgvuiwybus.streamlit.app/#raven-testi-otomatik-analiz-ve-raporlama"  # BURAYA SENİN RAVEN UYGULAMANIN LİNKİNİ YAPIŞTIR
@@ -124,4 +124,5 @@ for i, app in enumerate(uygulamalar):
         )
 
         st.write("") # Kartlar arası boşluk bırak
+
 
