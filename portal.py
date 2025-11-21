@@ -1,7 +1,7 @@
 import streamlit as st
 
 # --- SAYFA AYARLARI ---
-st.set_page_config(page_title="TMCO Otomasyon Araçları", layout="wide", page_icon="🚀")
+st.set_page_config(page_title="TMCO Otomasyon", layout="wide", page_icon="🚀")
 
 # --- TASARIM VE CSS ---
 st.markdown("""
@@ -65,7 +65,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- BAŞLIK ALANI ---
-st.markdown('<div class="main-title">Kurumsal Uygulama Merkezi</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">TMCO Otomasyon Araçları</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-title">Tüm analiz ve raporlama araçlarına tek noktadan erişim</div>', unsafe_allow_html=True)
 
 # --- UYGULAMA LİSTESİ (BURAYI DÜZENLEYECEKSİN) ---
@@ -124,5 +124,6 @@ for i, app in enumerate(uygulamalar):
         )
 
         st.write("") # Kartlar arası boşluk bırak
+
 
 
