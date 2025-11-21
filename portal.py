@@ -84,9 +84,9 @@ uygulamalar = [
         "link": "https://google.com" # Örnek link (İleride yapınca değiştirirsin)
     },
     {
-        "ad": "Moxo Dikkat Testi",
+        "ad": "New App",
         "ikon": "🎯",
-        "aciklama": "Dikkat eksikliği ve hiperaktivite performans analizi.",
+        "aciklama": "#",
         "link": "#"
     },
     {
@@ -96,15 +96,15 @@ uygulamalar = [
         "link": "https://tmco-profiler.streamlit.app/"
     },
     {
-        "ad": "Randevu Sistemi",
+        "ad": "New App",
         "ikon": "📅",
-        "aciklama": "Danışan randevu takibi ve takvim yönetimi.",
+        "aciklama": "#",
         "link": "#"
     },
     {
-        "ad": "Doküman Arşivi",
+        "ad": "New App",
         "ikon": "📂",
-        "aciklama": "Kurumsal belgeler ve formlar.",
+        "aciklama": "#",
         "link": "#"
     }
 ]
@@ -124,6 +124,7 @@ for i, app in enumerate(uygulamalar):
         )
 
         st.write("") # Kartlar arası boşluk bırak
+
 
 
 
