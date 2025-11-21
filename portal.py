@@ -78,10 +78,10 @@ uygulamalar = [
         "link": "https://raven-test-app-8vb5cu4nzr3cxgvuiwybus.streamlit.app/#raven-testi-otomatik-analiz-ve-raporlama"  # BURAYA SENİN RAVEN UYGULAMANIN LİNKİNİ YAPIŞTIR
     },
     {
-        "ad": "WISC-R Hesaplayıcı",
+        "ad": "New App",
         "ikon": "📊",
-        "aciklama": "WISC-R zeka testi alt test puanlarını hesaplama modülü.",
-        "link": "https://google.com" # Örnek link (İleride yapınca değiştirirsin)
+        "aciklama": "#",
+        "link": "#" 
     },
     {
         "ad": "New App",
@@ -124,6 +124,7 @@ for i, app in enumerate(uygulamalar):
         )
 
         st.write("") # Kartlar arası boşluk bırak
+
 
 
 
