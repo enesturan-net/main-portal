@@ -78,10 +78,10 @@ uygulamalar = [
         "link": "https://raven-test-app-8vb5cu4nzr3cxgvuiwybus.streamlit.app/#raven-testi-otomatik-analiz-ve-raporlama"  # BURAYA SENİN RAVEN UYGULAMANIN LİNKİNİ YAPIŞTIR
     },
     {
-        "ad": "New App",
-        "ikon": "📊",
-        "aciklama": "#",
-        "link": "#" 
+         "ad": "Profilleme & Aday Değerlendirme",
+        "ikon": "📝",
+        "aciklama": "Profill oluştur & aday değerlendir",
+        "link": "https://tmco-profiler.streamlit.app/"
     },
     {
         "ad": "New App",
@@ -90,10 +90,10 @@ uygulamalar = [
         "link": "#"
     },
     {
-        "ad": "Profilleme & Aday Değerlendirme",
-        "ikon": "📝",
-        "aciklama": "Profill oluştur & aday değerlendir",
-        "link": "https://tmco-profiler.streamlit.app/"
+        "ad": "New App",
+        "ikon": "📊",
+        "aciklama": "#",
+        "link": "#" 
     },
     {
         "ad": "New App",
@@ -124,6 +124,7 @@ for i, app in enumerate(uygulamalar):
         )
 
         st.write("") # Kartlar arası boşluk bırak
+
 
 
 
