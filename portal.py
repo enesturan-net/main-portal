@@ -93,7 +93,7 @@ uygulamalar = [
         "ad": "MMPI Raporlayıcı",
         "ikon": "📝",
         "aciklama": "Kişilik envanteri otomatik yorumlama sistemi.",
-        "link": "#"
+        "link": "https://tmco-profiler.streamlit.app/"
     },
     {
         "ad": "Randevu Sistemi",
@@ -124,6 +124,7 @@ for i, app in enumerate(uygulamalar):
         )
 
         st.write("") # Kartlar arası boşluk bırak
+
 
 
 
