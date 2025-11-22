@@ -135,10 +135,10 @@ uygulamalar = [
         "link": "https://toplu-klasifikasyon.streamlit.app/"
     },
     {
-        "ad": "New App",
+        "ad": "Güvenilirlik Analizi",
         "ikon": "🎯",
-        "aciklama": "#.",
-        "link": "#"
+        "aciklama": "Cronach's Alpha Hesapla ve Veri Temizle",
+        "link": "https://cronbachs-alpha.streamlit.app/"
     },
     {
         "ad": "New App",
@@ -177,4 +177,5 @@ for i, app in enumerate(uygulamalar):
 
 # --- FOOTER ---
 st.markdown('<div class="footer">© 2025 Talent Management Co. - Tüm Hakları Saklıdır</div>', unsafe_allow_html=True)
+
 
