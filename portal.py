@@ -126,7 +126,7 @@ uygulamalar = [
         "ad": "Raven Zeka Testi",
         "ikon": "🧠",
         "aciklama": "Çocuk ve yetişkinler için otomatik yaş normu analizi ve raporlama.",
-        "link": "https://raven-test-app-8vb5cu4nzr3cxgvuiwybus.streamlit.app/" 
+        "link": "https://raven-normlama.streamlit.app/" 
     },
     {
         "ad": "Toplu Klasifikasyon",
@@ -177,5 +177,6 @@ for i, app in enumerate(uygulamalar):
 
 # --- FOOTER ---
 st.markdown('<div class="footer">© 2025 Talent Management Co. - Tüm Hakları Saklıdır</div>', unsafe_allow_html=True)
+
 
 
