@@ -129,33 +129,33 @@ uygulamalar = [
         "link": "https://raven-test-app-8vb5cu4nzr3cxgvuiwybus.streamlit.app/" 
     },
     {
-        "ad": "Profil & Aday Analizi",
+        "ad": "Toplu Klasifikasyon",
         "ikon": "📋",
-        "aciklama": "Aday yetkinliklerini analiz et ve detaylı profil oluştur.",
-        "link": "https://tmco-profiler.streamlit.app/"
+        "aciklama": "Test sonuçlarına göre toplu aday sınıflandırma.",
+        "link": "https://toplu-klasifikasyon.streamlit.app/"
     },
     {
-        "ad": "Moxo Dikkat Testi",
+        "ad": "New App",
         "ikon": "🎯",
-        "aciklama": "Dikkat performansı ve hiperaktivite ölçümleme aracı.",
+        "aciklama": "#.",
         "link": "#"
     },
     {
-        "ad": "WISC-R Hesaplayıcı",
+        "ad": "New App",
         "ikon": "📊",
-        "aciklama": "Zeka testi alt ölçek puanlarını hızlıca hesaplayın.",
+        "aciklama": "#",
         "link": "#"
     },
     {
-        "ad": "Mülakat Takvimi",
+        "ad": "New App",
         "ikon": "📅",
-        "aciklama": "Aday görüşmelerini planlayın ve takvimi yönetin.",
+        "aciklama": "#",
         "link": "#"
     },
     {
-        "ad": "Belge Arşivi",
+        "ad": "New App",
         "ikon": "📂",
-        "aciklama": "Kurumsal formlara ve dokümanlara buradan erişin.",
+        "aciklama": "#",
         "link": "#"
     }
 ]
@@ -177,3 +177,4 @@ for i, app in enumerate(uygulamalar):
 
 # --- FOOTER ---
 st.markdown('<div class="footer">© 2025 Talent Management Co. - Tüm Hakları Saklıdır</div>', unsafe_allow_html=True)
+
